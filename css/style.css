@@ -919,7 +919,7 @@ ul.nav {
 	text-align: center;
 }
 
-.footer__caption{
+.footer__caption {
 	margin-bottom: 40px;
 	color: #dadada;
 	position: relative;
@@ -949,12 +949,13 @@ ul.nav {
 	flex-basis: 49%;
 }
 
-.contact-address, .contact-mobile, .contact-email  {
+.contact-address, .contact-mobile, .contact-email {
 	display: flex;
 	align-items: center;
 	padding: 15px 0;
 	position: relative;
 }
+
 .contact-address::before {
 	content: '';
 	display: block;
@@ -1009,6 +1010,7 @@ ul.nav {
 	text-align: center;
 	padding: 20px 0;
 }
+
 .ending span {
 	font-weight: 700;
 	font-style: italic;
@@ -1158,6 +1160,10 @@ ul.nav {
 		padding: 50px 0;
 	}
 
+	.banner {
+		background-attachment: unset;
+	}
+
 	.banner__container {
 		padding: 0;
 	}
@@ -1231,13 +1237,15 @@ ul.nav {
 	}
 
 	.events__next {
-		top: 54%;
-		right: -4%;
+		top: 50%;
+		right: -2%;
 	}
+
 	.events__prev {
-		top: 54%;
+		top: 50%;
 		left: -4%;
 	}
+
 	.events-swiper__img::after {
 		opacity: 1;
 	}
@@ -1263,7 +1271,7 @@ ul.nav {
 	.banner {
 		background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../img/materials/photo4.jpg);
 		background-size: cover;
-		background-attachment: fixed;
+		background-attachment: scroll;
 		background-repeat: no-repeat;
 		background-position: 10% center;
 	}
@@ -1301,11 +1309,11 @@ ul.nav {
 
 	.feature-descr {
 		align-items: center;
-		
+
 	}
 
 	.details {
-		padding: 12px 0 35px;
+		padding: 40px 0 35px;
 	}
 
 	.container-header {
@@ -1322,15 +1330,16 @@ ul.nav {
 	}
 
 	.banner h1 {
-		font-size: 24px;
-		margin-top: 0;
+	    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 15px;
 	}
 
 	.banner p {
 		padding: 0 35px;
-		font-size: 14px;
-		margin-top: 12px;
-		line-height: 1.9;
+		font-size: 15px;
+		margin-top: 4px;
+		line-height: 1.6;
 	}
 
 	h4 {
